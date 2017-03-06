@@ -13,4 +13,4 @@ target_link_libraries( exe ${PKG_LIBRARIES} )
 
 # TEST EXECUTABLE DEFINITION
 add_executable( test_exe src/main_test.cpp )
-target_link_libraries( main_test.out ${PKG_LIBRARIES} )
+target_link_libraries( test_exe ${PKG_LIBRARIES} )
